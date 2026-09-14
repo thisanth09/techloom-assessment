@@ -1,0 +1,13 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^bash mvnw dependency:tree -Dincludes=org\\.projectlombok:lombok -Dverbose$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^bash mvnw clean test$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
